@@ -124,7 +124,7 @@ git config --global user.email sample@email.com
 ターミナルなりShellなりでpushすればいいのかもしれませんが，できるだけRStudioと共に生きたいので，このままでは困ります。これについては[盆栽日記さん](https://dichika.hateblo.jp/entry/20180102/p1)に解決法が載っていて，pushするときに`Gitタブ>歯車>shell...`で，以下のようにすれば良いようです。
 
 ```
-_git push -u origin master
+git push -u origin master
 ```
 
 `-u`をつけてpushすることで，デフォルトでpushするブランチを設定できるんだそうです。
